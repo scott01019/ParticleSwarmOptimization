@@ -22,8 +22,9 @@ namespace WindowsFormsApplication1
     {
       InitializeComponent();
       this.PSO = new ParticleSwarmOptimization();
-      this.PSO.C1 = 1.0;
+      this.PSO.C1 = 0.3;
       this.PSO.C2 = 1.0;
+      this.PSO.DT = 0.01;
       this.label_particles.Text = "Particles (" + this.track_bar_particles.Value + "): ";
 
       this.button_start_stop.Enabled = false;

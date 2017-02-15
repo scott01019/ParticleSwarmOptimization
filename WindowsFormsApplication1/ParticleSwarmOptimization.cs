@@ -17,7 +17,6 @@ namespace WindowsFormsApplication1
       this.Particles = new List<Particle>();
       this.Best = new Particle();
       this.Best.Fitness = -9999999;
-      this.DT = .1;
     }
 
     //  GenerateParticles

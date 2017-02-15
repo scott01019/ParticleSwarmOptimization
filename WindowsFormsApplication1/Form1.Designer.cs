@@ -82,7 +82,7 @@
       this.track_bar_particles.Name = "track_bar_particles";
       this.track_bar_particles.Size = new System.Drawing.Size(365, 45);
       this.track_bar_particles.TabIndex = 3;
-      this.track_bar_particles.Value = 10;
+      this.track_bar_particles.Value = 250;
       this.track_bar_particles.Scroll += new System.EventHandler(this.track_bar_scroll_particles);
       // 
       // panel
@@ -111,7 +111,7 @@
       this.text_box_c1.Name = "text_box_c1";
       this.text_box_c1.Size = new System.Drawing.Size(49, 20);
       this.text_box_c1.TabIndex = 6;
-      this.text_box_c1.Text = "1.0";
+      this.text_box_c1.Text = "0.3";
       this.text_box_c1.TextChanged += new System.EventHandler(this.text_box_changed_c1);
       // 
       // text_box_c2
@@ -147,7 +147,7 @@
       this.text_box_dt.Name = "text_box_dt";
       this.text_box_dt.Size = new System.Drawing.Size(49, 20);
       this.text_box_dt.TabIndex = 10;
-      this.text_box_dt.Text = "0.1";
+      this.text_box_dt.Text = "0.01";
       this.text_box_dt.TextChanged += new System.EventHandler(this.text_box_changed_dt);
       // 
       // label_dt
